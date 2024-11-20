@@ -32,7 +32,7 @@ public class Ejercicio20bis {
         } catch(NumberFormatException e){
             System.out.println("Error: debe introducir un número");
         } catch (Exception e) {
-            System.out.println("Ha ocurrido un error%"+e);
+            System.out.println("Ha ocurrido un error %s"+e);
         }
     }
     
